@@ -7,7 +7,7 @@ import scipy.stats as stats
 # ── 1. Chemins ────────────────────────────────────────────────────────────────
 MOTION_CSV = "/home/av62870@ens.ad.etsmtl.ca/Documents/oasis1_motion_scores.csv"
 FREESURFER_DIR = "/project/hippocampus/common/datasets/OASIS1_BIDS/processed_freesurfer7.4.1"
-OUTPUT_DIR = "/home/av62870@ens.ad.etsmtl.ca/Documents/oasis1_analysis"
+OUTPUT_DIR = "/home/av62870@ens.ad.etsmtl.ca/Documents/oasis1-analysis"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
