@@ -1,0 +1,19 @@
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:      lh_mean_thickness   No. Observations:                  413
+Model:                            GLM   Df Residuals:                      409
+Model Family:                Gaussian   Df Model:                            3
+Link Function:               Identity   Scale:                       0.0060874
+Method:                          IRLS   Log-Likelihood:                 469.46
+Date:                Thu, 07 May 2026   Deviance:                       2.4897
+Time:                        14:57:33   Pearson chi2:                     2.49
+No. Iterations:                     3   Pseudo R-squ. (CS):             0.9057
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      2.6880      0.013    199.430      0.000       2.662       2.714
+sex[T.M]      -0.0066      0.008     -0.831      0.406      -0.022       0.009
+age           -0.0047      0.000    -29.098      0.000      -0.005      -0.004
+motion        -0.0136      0.006     -2.387      0.017      -0.025      -0.002
+==============================================================================
