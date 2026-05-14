@@ -3,3 +3,8 @@ jdac_corrected/
 jdac_corrected_mni/
 tmp_bids/
 datasets/ds001907/jdac_corrected/
+
+# ds004332 local data and JDAC outputs
+datasets/ds004332/jdac_corrected_test/
+*.nii
+*.nii.gz
